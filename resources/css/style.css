@@ -1,0 +1,108 @@
+/**UNIVERSAL**/
+
+html * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Courier;
+}
+
+h2 {
+	font-size: 54px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+
+/**HEADER**/
+
+header {
+	height: 64px;
+}
+
+header * {
+	display: inline-block;
+}
+
+.page-title {
+	text-align: left;
+	height: 32px;
+	margin: 16px auto;
+	padding-left: 24px;
+	vertical-align: middle;
+}
+
+.page-title img {
+	vertical-align: middle;
+}
+
+.page-title h1 {
+	vertical-align: middle;
+	font-family: Courier;
+	font-variant: small-caps;
+}
+
+.colmar {
+	font-weight: bold;
+}
+
+.academy {
+	font-weight: lighter;
+}
+
+nav {
+	text-align: right;
+	height: 32px;
+	margin: 16px auto;
+	padding-right: 24px;
+	float: right;
+	font-size: 32px;
+}
+
+.nav li {
+	padding-left: 16px;
+}
+
+.nav-link {
+	text-decoration: none;
+}
+
+/**BANNER**/
+
+.banner {
+	background-color: Gainsboro;
+	width: 100%;
+	height: auto;
+}
+.banner img {
+	display: inline-block;
+	width: 60%;
+	height: auto;
+	padding: 32px 24px;
+	vertical-align: middle;
+}
+
+.banner-content {
+	display: inline-block;
+	margin: auto;
+	max-width: 38%;
+	vertical-align: middle;
+}
+
+.banner-content * {
+padding: 12px 0px;
+margin: auto;
+}
+
+.button {
+	background-color: Gray;
+	color: white;
+	border: 2px solid black;
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
