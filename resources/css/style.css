@@ -1,10 +1,17 @@
-/**UNIVERSAL**/
+/**UNIVERSAL
+===========================================================================**/
 
 html * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Courier;
+	font-family: 'Mitr', sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	font-variant: small-caps;
 }
 
 h2 {
@@ -14,14 +21,16 @@ h2 {
 
 h3 {
 	font-size: 42px;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 
-/**HEADER**/
+/**HEADER
+===========================================================================**/
 
 header {
 	height: 64px;
+	width: 100%;
 }
 
 header * {
@@ -42,12 +51,8 @@ header * {
 
 .page-title h1 {
 	vertical-align: middle;
-	font-family: Courier;
-	font-variant: small-caps;
-}
-
-.colmar {
-	font-weight: bold;
+	line-height: 1;
+	height: 32px;
 }
 
 .academy {
@@ -60,23 +65,33 @@ nav {
 	margin: 16px auto;
 	padding-right: 24px;
 	float: right;
-	font-size: 32px;
+	font-size: 24px;
+	line-height: 1;
+
 }
 
 .nav li {
 	padding-left: 16px;
+	vertical-align: middle;
 }
 
 .nav-link {
 	text-decoration: none;
 }
 
-/**BANNER**/
+/**CONTENT*
+===========================================================================*/
+
+.content-panel {
+	width: 100%;
+	height: auto;
+}
+
+/**BANNER
+===========================================================================**/
 
 .banner {
 	background-color: Gainsboro;
-	width: 100%;
-	height: auto;
 }
 .banner img {
 	display: inline-block;
@@ -93,16 +108,37 @@ nav {
 	vertical-align: middle;
 }
 
-.banner-content * {
+.banner-content > * {
 padding: 12px 0px;
 margin: auto;
 }
 
 .button {
-	background-color: Gray;
+	background-color: darkslategray;
 	color: white;
 	border: 2px solid black;
 	width: 100%;
-	margin: 0;
+	margin: 12px 0 0 0;
 	text-align: center;
+	font-weight: 200;
+}
+
+.button span {
+	margin: 8px auto;
+}
+
+/**INFORMATION
+===========================================================================**/
+
+.information-main {
+	display: inline-block;
+	width: 60%;
+	height: auto;
+	padding: 32px 24px;
+	vertical-align: middle;
+}
+
+.information-main img {
+	width: 100%;
+	height: auto;
 }
